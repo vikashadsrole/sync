@@ -49,6 +49,9 @@ const EventSchema = new Schema(
     video_link:{
       type: String,
       required: true
+    },
+    live:{
+      type:Boolean
     }
   },
   { timestamps: true }
